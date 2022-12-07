@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p::first-letter {
+        font-size: 1.8rem;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+
+      h1::before {
+        content: "Young ";
+        text-transform: lowercase;
+        font-weight: 200;
+      }
+      h1::after {
+        content: " ,I like it";
+        text-transform: lowercase;
+        font-weight: 200;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>heroine is beutiful</h1>
+    <p>learn about pseudo elements</p>
+    <p>learn about pseudo elements</p>
+    <p>learn about pseudo elements</p>
+  </body>
+</html>

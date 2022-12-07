@@ -1,0 +1,29 @@
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container div {
+  height: 100px;
+  /* max-height: 400px; */
+  width: 100px;
+  /* max-width: 400px; */
+}
+
+.box1 {
+  background-color: cyan;
+  /* margin: 10px; */
+}
+.box2 {
+  background-color: rgb(89, 89, 112);
+  /* margin: 30px; */
+}
+.box3 {
+  background-color: green;
+  /* margin: 50px; */
+}
