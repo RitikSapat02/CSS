@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        display: inline-block;
+      }
+
+      header {
+        background-color: black;
+        color: white;
+        height: 55px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+
+      p {
+        text-align: center;
+        border: 2px solid red;
+      }
+
+      .container {
+        background-color: aqua;
+        height: 60vh;
+        width: 60vw;
+        margin: auto;
+        padding: 0 34px;
+        position: relative; /*  non-static */
+        display: inline-block;
+      }
+
+      .box {
+        height: 200px;
+        width: 200px;
+        background-color: blueviolet;
+        position: absolute; /* will position according to its nonstatic ie container element (parent) */
+        /* top:0px; */
+        bottom: 0px;
+
+        /* top:50px;
+            left:40px;
+            right:40px;  */
+      }
+
+      .box2 {
+        height: 200px;
+        width: 200px;
+        background-color: rgb(226, 168, 43);
+        position: relative;
+        left: 60%;
+        top: 0%;
+      }
+      .chat {
+        height: 60px;
+        margin-top: 30px;
+        margin-right: 30px;
+        width: 60px;
+        position: fixed;
+        background-color: bisque;
+        display: inline-block;
+        right: 0px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 50px;
+        padding-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quam
+        quidem, totam numquam facilis illum hic et itaque officia similique!
+        Voluptates odit sit, ex natus quisquam esse est eaque. Similique,
+        temporibus quos! Quisquam, asperiores.
+      </p>
+
+      <div class="box">I am a box</div>
+
+      <div class="box2">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis
+        molestias eaque suscipit eveniet minus ex obcaecati, consequatur maxime
+        laborum odio asperiores voluptatem placeat non perspiciatis iure nisi
+        labore maiores?
+      </div>
+    </div>
+
+    <div class="chat">
+      <b> chat with us </b>
+    </div>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, facere cum
+    atque a ut veniam minima nostrum sunt ducimus magni. Quasi et adipisci
+    tenetur ex a dignissimos labore veniam exercitationem sunt qui ratione
+    consequatur nemo, cupiditate voluptate velit delectus quia assumenda
+    doloremque eaque fugit voluptatibus quae. Esse eaque temporibus odio
+    reiciendis labore minus veritatis eum nesciunt recusandae doloremque
+    accusamus, quisquam ab deserunt sequi, excepturi reprehenderit enim itaque
+    unde tempore alias atque! Pariatur officiis esse voluptatem similique, sit
+    odit, quas iure provident repellat recusandae impedit quia culpa numquam non
+    ab, maiores corporis. Id dolorem quas veniam odio voluptatibus. Officia
+    ullam necessitatibus neque accusamus minima esse. Repellat molestiae
+    molestias voluptatibus aspernatur natus, voluptates, recusandae doloremque
+    aut iusto exercitationem assumenda! Officiis libero, dolorem ut minima sit
+    neque consequatur vel corrupti placeat. Sunt totam laboriosam architecto
+    suscipit quod sed nesciunt nam aspernatur magnam blanditiis dolorem modi
+    eveniet quisquam explicabo saepe fuga iure eaque excepturi, debitis ratione
+    earum iusto! Consectetur magnam possimus unde iure libero incidunt itaque, a
+    facere id, ipsa dolores maiores distinctio at rem inventore, ad natus
+    blanditiis in ab dolorum? Quam labore numquam ipsum eos tempore aperiam
+    minima possimus, perspiciatis repellat, architecto ab animi mollitia
+    consequatur, cumque dicta ipsam ipsa nesciunt nisi expedita laboriosam quos
+    omnis sint? Neque, corporis. Quam tempore saepe repellat nisi ipsum corporis
+    quia? Tempora recusandae iste at, deleniti maiores doloremque quas corporis
+    praesentium magnam soluta quod impedit, blanditiis perferendis totam
+    doloribus, non laudantium alias. Beatae, officiis laborum! Ad temporibus eos
+    ea animi vel, enim ut dolores sed maiores consequuntur ullam id iusto fuga
+    quos, excepturi mollitia quibusdam ipsam cumque quis atque dolorem natus.
+    Officiis et a nulla maxime, aliquid voluptatum minus minima eius suscipit
+    quidem, quis praesentium cumque tempora! Quod nam similique quas, quos
+    aspernatur ipsam, vitae doloremque velit hic veritatis voluptatum, impedit
+    deleniti ea? Quidem illum dolorum deleniti omnis commodi doloremque
+    quibusdam dignissimos reiciendis amet, maxime nam assumenda, beatae natus
+    molestiae accusamus facilis tempore velit? Ex, itaque, quos, amet asperiores
+    eum possimus provident fugiat qui quia numquam corporis. Excepturi alias
+    esse rem debitis laudantium at error incidunt quisquam a temporibus dolorem
+    ducimus neque minus, tempore voluptate architecto ullam fugit eligendi vitae
+    consequuntur. Natus repudiandae inventore vel asperiores quo eius minima
+    voluptatibus sequi! Fugiat quaerat quisquam itaque, illo reprehenderit sint.
+    Impedit, tempora distinctio labore fuga nisi voluptatibus et expedita harum
+    in nesciunt aliquam cum commodi, rem quos iusto. Accusamus mollitia nam
+    incidunt tempore facere laborum error repudiandae provident? Lorem ipsum
+    dolor sit amet consectetur adipisicing elit. Molestiae eos error dicta
+    minima laborum porro mollitia quod provident inventore quos, quo quas labore
+    corporis nemo sequi. Autem temporibus ex consectetur iusto similique
+    distinctio accusantium laboriosam voluptatibus quibusdam, quas modi mollitia
+    placeat quis sequi dolor nobis sit. Tempore necessitatibus ratione debitis
+    quisquam incidunt rem quod ipsam ducimus iure, voluptatem illo sint autem
+    libero error sequi dignissimos, totam asperiores fugit aliquam atque
+    corporis temporibus assumenda modi. Sapiente, dolore? Consequuntur veritatis
+    aspernatur ipsa at possimus magni sapiente sit vitae mollitia neque illo
+    molestiae, totam, maxime deleniti eligendi in debitis. Eveniet, et
+    molestias, quia eaque at nihil minima nam corporis, atque id maxime non
+    labore ipsam. Placeat accusantium pariatur earum vero assumenda nobis
+    perferendis inventore, rem accusamus officia non. Ut, ab consectetur
+    dolores, natus a doloremque, laudantium nostrum eos sed vero et praesentium
+    sapiente odit fugit velit tempore! Necessitatibus ipsa molestias adipisci
+    deleniti earum nesciunt debitis pariatur, fugiat nihil maiores eligendi
+    nostrum totam doloribus? Doloribus vero laudantium qui eligendi, aliquam
+    rerum provident odio repudiandae corporis, error repellat incidunt fugiat
+    perspiciatis, placeat exercitationem distinctio esse quod numquam quisquam.
+    Illo fugit omnis totam voluptates est sit impedit laboriosam? Voluptate
+    veniam, sequi modi at qui mollitia possimus!
+  </body>
+</html>

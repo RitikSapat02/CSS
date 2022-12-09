@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: red;
+            height:455px;
+        }
+
+        .box1{
+            border:2px solid black;
+            /* transform:translate(34px,34px) rotate(0.009turn);
+            transform-origin:0;
+            /* transform:scaleX(4);
+            transform:scaleY(4); */
+            /* transform:scale(4,4);
+            transform:skew(10deg,7deg);
+            transform:rotateZ(70deg);  */
+        }
+        img:hover{
+            width:50px;
+            height:60px;
+        }
+
+        img{
+            width:455px;
+            height:455px;
+            /* transition-property:width;
+            transition-duration:3s;
+            transition-timing-function:ease-in;
+            transition-delay:2s; */
+
+            /* transition: width 3s ease-in-out 1s; */
+            transition: width 2s ease-in-out , height 4s ease-in;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+           <img src="\Web_Development\HTML\IMAGES AND VEDIOS\Hydrangeas.jpg" alt="f" height="245px" width="245x">
+        </div>
+    </div>
+</body>
+</html>
